@@ -1,0 +1,31 @@
+.bien { width: auto;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.test {
+    width: auto;
+    background-color: #ccc;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.cita {
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    padding-top: 5px;
+}
+.pic {
+   max-width: 100%;
+    height: auto;
+} 
+.infohome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,39 @@
+nav {
+    background-color: aqua;
+ display:flex;
+ justify-content: center;
+}
+
+.botonera{
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.boton {
+    height: 40px;
+    width: 150px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.activo div{
+    background-color: black;
+    color: white;
+}
+
+.boton:hover {
+    background-color: rgb(255, 65, 65);
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
