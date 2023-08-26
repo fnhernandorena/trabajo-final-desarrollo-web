@@ -6,4 +6,5 @@ footer {
     justify-content: center;
     margin-bottom: 5px;
     border-radius: 5px;
+    border: 3px solid rgb(164, 164, 164);
 }

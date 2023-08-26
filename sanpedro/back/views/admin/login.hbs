@@ -1,12 +1,12 @@
 <h2>Administrador</h2>
-<div class="login"><form action="/admin/login" method="post"><div class="mb-3">
+<div class="login" style="border: 2px solid rgb(255, 65, 65); padding: 15px; border-radius:10px"><form action="/admin/login" method="post"><div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Nombre de usuario</label>
   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Admin" name="usuario">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Contraseña</label>
-  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="french1234" name="password">
+  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="sp1234" name="password">
 </div>
-<button type="submit" class="btnbtn-primary">Ingresar</button></form> </form>
+<button type="submit" class="btn btn-primary">Ingresar</button></form> </form>
 {{#if error}}<p>Usuario y/o contraseña incorrectos</p>
 {{/if}}</div>

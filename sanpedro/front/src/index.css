@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(255, 65, 65);
+  color: rgb(255, 65, 65); border-bottom: 10px double rgb(255, 65, 65);
 }
 h3 {
   color: rgb(255, 65, 65);
@@ -21,4 +21,10 @@ h4 {
 
 #root{
   width: 100%;
+}
+.caja{
+  width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }

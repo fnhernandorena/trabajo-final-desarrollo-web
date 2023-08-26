@@ -21,6 +21,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 2px;
+    border: 2px solid black;
 }
 
 .activo div{

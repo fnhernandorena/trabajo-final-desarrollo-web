@@ -4,15 +4,15 @@ const Nav = (props) => {
     return (<nav><div className="botonera">
       <NavLink to="/" className={({ isActive})=> isActive ?"activo" :
     undefined }>
-            <div className="boton">  Home</div>
+            <div className="boton">  Inicio</div>
         </NavLink>
        <NavLink to="/novedades" className={({ isActive})=> isActive ?"activo" :
     undefined }>
            <div className="boton">   Novedades</div>
         </NavLink>
-        <NavLink to="/nosotros" className={({ isActive})=> isActive ?"activo" :
+        <NavLink to="/puntos" className={({ isActive})=> isActive ?"activo" :
     undefined }>
-          <div className="boton"> Nosotros </div>
+          <div className="boton"> Puntos turisticos </div>
         </NavLink>
          <NavLink to="/contacto" className={({ isActive})=> isActive ?"activo" :
     undefined }>
